@@ -68,25 +68,13 @@ class CardNumber extends StatelessWidget {
                         ),
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: Row(
-                        children: [
-                          Text(
-                            countryCode,
-                            style: const TextStyle(
-                              fontSize: 11,
-                              fontWeight: FontWeight.w900,
-                              color: AppColors.kWhiteColor,
-                            ),
-                          ),
-                          const Gap(24),
-                          const Text(
-                            'DMY',
-                            style: TextStyle(
-                              fontSize: 12,
-                              color: AppColors.kWhiteColor,
-                            ),
-                          ),
-                        ],
+                      child: Text(
+                        countryCode,
+                        style: const TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w900,
+                          color: AppColors.kWhiteColor,
+                        ),
                       ),
                     ),
                   ],
